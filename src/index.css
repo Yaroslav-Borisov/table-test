@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+  width: 800px;
+  padding: 50px 0;
+}
+
+.form-filter-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

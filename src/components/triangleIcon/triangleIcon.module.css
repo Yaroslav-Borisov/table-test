@@ -1,0 +1,7 @@
+.icon {
+    transform-origin: center center
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
