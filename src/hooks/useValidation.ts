@@ -28,7 +28,7 @@ export const useValidation = (value: string, validations: object) => {
                     (!isNaN(Number(value)) && String(value).length === 10) ? setPhone(false) : setPhone(true);
                     break;
                 case 'isLetter':
-                    const reg = /^[a-zA-Z]+$/;
+                    const reg = /[а-яА-ЯёЁ, a-zA-Z]+/;
                     reg.test(value) ? setLetter(false) : setLetter(true);
                     break;
 
